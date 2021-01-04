@@ -14,6 +14,14 @@
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
 		96905EF65AED1B983A6B3ABC /* libPods-reactProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-reactProject.a */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
+		056D6C0D59E643FB992B5D9D /* circular-std-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = FE44CBEBFA9946A09C5DFB27 /* circular-std-400.otf */; };
+		938FD3114F534D39A6ABD3BA /* circular-std-400italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6F6DE06D4BC2433282A05CDF /* circular-std-400italic.otf */; };
+		773BCFC012D2479595DB368A /* circular-std-500.otf in Resources */ = {isa = PBXBuildFile; fileRef = 992FF407A4DF4B56918A1419 /* circular-std-500.otf */; };
+		56273D9742454D7CAFC1A59A /* circular-std-500italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = CD7B7FFB51754FD284EFE70B /* circular-std-500italic.otf */; };
+		72B95BAD684545898DCDD145 /* circular-std-700.otf in Resources */ = {isa = PBXBuildFile; fileRef = F0015972ADB74DE19A13E52A /* circular-std-700.otf */; };
+		C0009C82D9154529833FF83D /* circular-std-700italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1700016A777E4DB299CBDE7F /* circular-std-700italic.otf */; };
+		CCABF4E1708F43BEBE6906B9 /* circular-std-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = CA48F4161E404055B4097FCF /* circular-std-900.otf */; };
+		D4F5FF72F4DC4FC6B099D71C /* circular-std-900italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 07380A31CE7F4E79A48D7DC3 /* circular-std-900italic.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +40,14 @@
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		FE44CBEBFA9946A09C5DFB27 /* circular-std-400.otf */ = {isa = PBXFileReference; name = "circular-std-400.otf"; path = "../assets/fonts/circular-std-400.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6F6DE06D4BC2433282A05CDF /* circular-std-400italic.otf */ = {isa = PBXFileReference; name = "circular-std-400italic.otf"; path = "../assets/fonts/circular-std-400italic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		992FF407A4DF4B56918A1419 /* circular-std-500.otf */ = {isa = PBXFileReference; name = "circular-std-500.otf"; path = "../assets/fonts/circular-std-500.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CD7B7FFB51754FD284EFE70B /* circular-std-500italic.otf */ = {isa = PBXFileReference; name = "circular-std-500italic.otf"; path = "../assets/fonts/circular-std-500italic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F0015972ADB74DE19A13E52A /* circular-std-700.otf */ = {isa = PBXFileReference; name = "circular-std-700.otf"; path = "../assets/fonts/circular-std-700.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1700016A777E4DB299CBDE7F /* circular-std-700italic.otf */ = {isa = PBXFileReference; name = "circular-std-700italic.otf"; path = "../assets/fonts/circular-std-700italic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CA48F4161E404055B4097FCF /* circular-std-900.otf */ = {isa = PBXFileReference; name = "circular-std-900.otf"; path = "../assets/fonts/circular-std-900.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		07380A31CE7F4E79A48D7DC3 /* circular-std-900italic.otf */ = {isa = PBXFileReference; name = "circular-std-900italic.otf"; path = "../assets/fonts/circular-std-900italic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +103,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				D65327D7A22EEC0BE12398D9 /* Pods */,
+				74421D33BA9D4BAFA527051B /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -118,6 +135,22 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		74421D33BA9D4BAFA527051B /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				FE44CBEBFA9946A09C5DFB27 /* circular-std-400.otf */,
+				6F6DE06D4BC2433282A05CDF /* circular-std-400italic.otf */,
+				992FF407A4DF4B56918A1419 /* circular-std-500.otf */,
+				CD7B7FFB51754FD284EFE70B /* circular-std-500italic.otf */,
+				F0015972ADB74DE19A13E52A /* circular-std-700.otf */,
+				1700016A777E4DB299CBDE7F /* circular-std-700italic.otf */,
+				CA48F4161E404055B4097FCF /* circular-std-900.otf */,
+				07380A31CE7F4E79A48D7DC3 /* circular-std-900italic.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -183,6 +216,14 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
+				056D6C0D59E643FB992B5D9D /* circular-std-400.otf in Resources */,
+				938FD3114F534D39A6ABD3BA /* circular-std-400italic.otf in Resources */,
+				773BCFC012D2479595DB368A /* circular-std-500.otf in Resources */,
+				56273D9742454D7CAFC1A59A /* circular-std-500italic.otf in Resources */,
+				72B95BAD684545898DCDD145 /* circular-std-700.otf in Resources */,
+				C0009C82D9154529833FF83D /* circular-std-700italic.otf in Resources */,
+				CCABF4E1708F43BEBE6906B9 /* circular-std-900.otf in Resources */,
+				D4F5FF72F4DC4FC6B099D71C /* circular-std-900italic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -38,7 +38,7 @@
 		</dict>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>UILaunchStoryboardName</key>
 	<string>SplashScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -53,7 +53,18 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-  <key>UIStatusBarStyle</key>
-  <string>UIStatusBarStyleDefault</string>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleDefault</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>circular-std-400.otf</string>
+		<string>circular-std-400italic.otf</string>
+		<string>circular-std-500.otf</string>
+		<string>circular-std-500italic.otf</string>
+		<string>circular-std-700.otf</string>
+		<string>circular-std-700italic.otf</string>
+		<string>circular-std-900.otf</string>
+		<string>circular-std-900italic.otf</string>
+	</array>
 </dict>
 </plist>
