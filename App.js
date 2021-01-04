@@ -6,10 +6,10 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import AppLoading from "expo-app-loading";
 import { useFonts } from "expo-font";
-import SignUp from "./Pages/Authorization/SignUp/SignUp";
-import SignIn from "./Pages/Authorization/SignIn/SignIn";
-import Forgot from "./Pages/Authorization/Forgot/Forgot";
-import Reset from "./Pages/Authorization/Reset/Reset";
+import SignUp from "./Pages/Authentication/SignUp/SignUp";
+import SignIn from "./Pages/Authentication/SignIn/SignIn";
+import Forgot from "./Pages/Authentication/Forgot/Forgot";
+import Reset from "./Pages/Authentication/Reset/Reset";
 import HeaderCloseBtn from "./Components/HeaderCloseBtn/HeaderCloseBtn";
 import HeaderBackBtn from "./Components/HeaderBackBtn/HeaderBackBtn";
 
