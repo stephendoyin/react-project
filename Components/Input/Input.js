@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Animated, TextInput, StyleSheet, View, Text } from "react-native";
-import PasswordViewIcon from "../PasswordViewIcon/PasswordViewIcon";
+import PasswordViewIcon from "../Icons/PasswordViewIcon/PasswordViewIcon";
 
 function Input(props) {
   const [isFocused, setIsFocused] = useState(false);

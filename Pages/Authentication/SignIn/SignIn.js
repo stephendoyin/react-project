@@ -9,6 +9,8 @@ import {
 import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view";
 import Input from "../../../Components/Input/Input";
 import Button from "../../../Components/Button/Button";
+import FacebookIcon from "../../../Components/Icons/Facebook/Facebook";
+import GoogleIcon from "../../../Components/Icons/Google/Google";
 
 export default function SignIn({ navigation }) {
   function onChangeText(text) {
@@ -54,12 +56,18 @@ export default function SignIn({ navigation }) {
             <Text style={styles.paragraphLarge}>Or</Text>
           </View>
         </View>
-        <View style={{ marginBottom: 8 }}>
-          <Button btnStyle="outlined">Sign in with Facebook</Button>
-        </View>
-        <View>
-          <Button btnStyle="outlined">Sign in with Google</Button>
-        </View>
+        <TouchableWithoutFeedback>
+          <View style={styles.socialBtn}>
+            <FacebookIcon />
+            <Text style={styles.facebooktext}>Sign in with Facebook</Text>
+          </View>
+        </TouchableWithoutFeedback>
+        <TouchableWithoutFeedback>
+          <View style={styles.socialBtn}>
+            <GoogleIcon />
+            <Text style={styles.googletext}>Sign in with Google</Text>
+          </View>
+        </TouchableWithoutFeedback>
         <View style={styles.promptStyleCenter}>
           <Text style={styles.paragraph}>Already have an account?</Text>
           <TouchableWithoutFeedback>
@@ -112,10 +120,31 @@ const styles = StyleSheet.create({
     fontFamily: "circular-std-900",
     marginBottom: 5,
   },
+  socialBtn: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    flexDirection: "row",
+    height: 52,
+    borderRadius: 31,
+    borderColor: "#bdbdbd",
+    borderWidth: 1,
+    marginBottom: 8,
+  },
   paragraph: {
     color: "#828282",
     fontSize: 13,
     fontFamily: "circular-std-400",
+  },
+  facebooktext: {
+    fontFamily: "circular-std-700",
+    color: "#4267B2",
+    marginLeft: 12,
+  },
+  googletext: {
+    fontFamily: "circular-std-700",
+    color: "#EA4335",
+    marginLeft: 12,
   },
   paragraphLarge: {
     color: "#828282",
@@ -142,5 +171,8 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     flexDirection: "row",
     paddingTop: 20,
+  },
+  space: {
+    marginBottom: 12,
   },
 });

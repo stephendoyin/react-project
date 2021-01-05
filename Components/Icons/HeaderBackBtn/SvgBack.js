@@ -14,6 +14,7 @@ function SvgBack(props) {
       <Path
         d="M7.008 13.143l-6-6 6-6"
         stroke="#151522"
+        strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
       />
