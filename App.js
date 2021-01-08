@@ -1,12 +1,13 @@
 // import { StatusBar } from "expo-status-bar";
 import React from "react";
-import { Text, Pressable } from "react-native";
+import { View } from "react-native";
 
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import AppLoading from "expo-app-loading";
 import { useFonts } from "expo-font";
 import Authentication from "./modules/Authentication/Authentication";
+import Practice from "./modules/Practice/Practice";
 
 const Stack = createStackNavigator();
 
@@ -21,6 +22,6 @@ export default function App() {
   if (!fontsLoaded) {
     return <AppLoading />;
   } else {
-    return <Authentication />;
+    return <Practice />;
   }
 }

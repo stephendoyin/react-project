@@ -34,17 +34,18 @@ export default function Token({ navigation }) {
             maxLength={1}
             style={styles.input}
             autoFocus={tokenInput[0]?.focused}
+            secureTextEntry={true}
             returnKeyType={"next"}
             onChangeText={(text) => {
               if (text.trim().length >= 1) secondTextInput.focus();
             }}
-            blurOnSubmit={false}
           />
           <TextInput
             defaultValue=""
             keyboardType="numeric"
             maxLength={1}
             style={styles.input}
+            secureTextEntry={true}
             ref={(input) => {
               secondTextInput = input;
             }}
@@ -57,6 +58,7 @@ export default function Token({ navigation }) {
             keyboardType="numeric"
             maxLength={1}
             style={styles.input}
+            secureTextEntry={true}
             ref={(input) => {
               thirdTextInput = input;
             }}
@@ -69,6 +71,7 @@ export default function Token({ navigation }) {
             keyboardType="numeric"
             maxLength={1}
             style={styles.input}
+            secureTextEntry={true}
             ref={(input) => {
               fourthTextInput = input;
             }}

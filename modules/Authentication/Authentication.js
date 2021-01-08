@@ -16,7 +16,7 @@ const Stack = createStackNavigator();
 export default function Authentication() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Token">
+      <Stack.Navigator initialRouteName="Sign">
         <Stack.Screen
           name="Signup"
           component={SignUp}
